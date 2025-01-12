@@ -70,7 +70,7 @@ nav a.active{
     text-decoration: underline;
 }
 
-/* Hide the checkbox on large screens */
+/* Hides the checkbox on large screens */
 input[type="checkbox"] {
     display: none;
 }
@@ -86,7 +86,7 @@ input[type="checkbox"] {
 
 /* Media query for small screens */
 @media(max-width:995px){
-    /* Hide the nav by default */
+    /* Hides the nav by default */
     nav{
         position: absolute;
         display: none;
@@ -125,7 +125,7 @@ input[type="checkbox"] {
         display: block;
     }
 
-    /* When a link is clicked, uncheck the checkbox */
+    /* When a link is clicked, unchecks the checkbox */
     nav a {
         cursor: pointer;
     }
@@ -140,8 +140,6 @@ input[type="checkbox"] {
         display: none;
     }
 }
-
-/* Rest of your existing styles */
 
 /* General Section Styles */
 section {
