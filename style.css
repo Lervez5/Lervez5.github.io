@@ -323,7 +323,7 @@ span {
 /* Services Section */
 .services {
     padding: 6rem 10%;
-    background-color: #121212; /* Slightly darker background for distinction */
+    background-color: #121212;
     color: #f0f0f0;
 }
 
@@ -331,7 +331,7 @@ span {
     text-align: center;
     font-size: 3.5rem;
     margin-bottom: 3rem;
-    color: #e94b4b; /* Red accent color */
+    color: #e94b4b;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -411,7 +411,7 @@ span {
 }
 
 .service:hover i {
-    color: #ff6666; /* Slightly brighter red on hover */
+    color: #ff6666;
 }
 
 /* Service Title */
@@ -600,25 +600,25 @@ span {
     .skills {
         padding: 4rem 6%;
     }
-
+    /* Adjusted for smaller screens */
     .skills h2 {
-        font-size: 2.8rem; /* Adjusted for smaller screens */
+        font-size: 2.8rem;
     }
-
+    /* Adjusted for smaller screens */
     .skills p {
-        font-size: 1.6rem; /* Adjusted for smaller screens */
+        font-size: 1.6rem;
     }
-
+    /* Single column layout on small screens */
     .skills-list {
-        grid-template-columns: 1fr; /* Single column layout on small screens */
+        grid-template-columns: 1fr;
     }
-
+    /* Adjusted padding */
     .skill {
-        padding: 2.5rem; /* Adjusted padding */
+        padding: 2.5rem;
     }
-
+    /* Adjusted for smaller screens */
     .skill h3 {
-        font-size: 2rem; /* Adjusted for smaller screens */
+        font-size: 2rem;
     }
 }
 
